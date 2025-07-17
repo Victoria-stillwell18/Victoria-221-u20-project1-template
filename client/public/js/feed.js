@@ -32,7 +32,7 @@ let Feeditem3 = { title: "This is story3. Should the campus make more dorms?.", 
 let currentStories = [Feeditem1, Feeditem2, Feeditem3];
 document.addEventListener("DOMContentLoaded", function () {
     let feed = document.getElementById("newsfeed");
-    for (i = 0, i > currentStories.length; i++);
+    for (i = 0, i > currentStories.length; i++)
     {
         feed.innerHTML += currentStories[i].title + "<br />";
         feed.innerHTML += currentStories[i].body + "<br />";
